@@ -6,8 +6,8 @@ import logging
 from universe import Universe
 
 api = tradeapi.REST(
-    key_id='PKL2GUZXZ8WJFGXMH6OV',
-    secret_key='KiRWxr/nTsdgE6GDdkztHrnUkiyXsKLMZmzpmi9z',
+    key_id='<REPLACE>',
+    secret_key='<REPLACE>',
     base_url='https://paper-api.alpaca.markets')
 
 logger = logging.getLogger(__name__)
